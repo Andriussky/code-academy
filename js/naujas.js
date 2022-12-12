@@ -13,6 +13,8 @@ let f = 'Mano vardas ';
 let g = f + e;
 console.log(g)
 
+
+
 let metai = 1999;
 let menuo = 10;
 let diena = 15;
