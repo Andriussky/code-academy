@@ -1,0 +1,26 @@
+.sec1 {
+    display: grid;
+    grid-template-areas:
+    'li1 li2 ';
+
+
+
+
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 150px 140px;
+}
+section > sec1 {
+    grid-area: li1;
+
+}
+section > sec1 {
+    grid-area: li2;
+}
+.sec1{
+padding-left: 150px;
+}
+:root{
+    --main-primary-color: #363333;
+}
+
+

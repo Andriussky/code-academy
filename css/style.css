@@ -1,0 +1,66 @@
+main {
+    background-color: #D5DFE5;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+aside {
+    background-color: #D5DFE5
+}
+footer {
+    background-color: #D5DFE5
+}
+
+.sec3 {
+    background-color: #D5DFE5
+}
+
+section {
+    background-color: #D5DFE5
+}
+
+.foto {
+    width: 500px;
+
+}
+
+main.center {
+    width: 50%;
+}
+
+.text {
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    color: #B49594;
+
+}
+
+.text1 {
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    color: #B49594;
+
+}
+
+.text2 {
+    display: grid;
+
+
+    font-size: 25px;
+    color: #B49594;
+
+}
+.text3 {
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    color: #B49594;
+}
+.text4 {
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    color: #B49594;
+}

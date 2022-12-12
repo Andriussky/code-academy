@@ -1,0 +1,88 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: yellow;
+
+        grid-template-areas:
+        'h'
+        "s"
+        "s1"
+        'm'
+        'f';
+    }
+
+    body > aside {
+        display: none;
+    }
+}
+
+/* Maži įrenginiai (statmenos planšetės, ar gulsti telefonai 600px ir aukščiau) */
+@media only screen and (min-width: 600px) {
+    body
+    main {
+        background-color: #D5DFE5;
+
+        grid-template-areas:
+        'h'
+        "s"
+        "s1"
+        'm'
+        'f';
+    }
+
+    body > aside {
+        display: none;
+    }
+
+
+
+}
+
+/* Vidutiniai įrenginiai (gulsčios planšetės ar maži laptopai, 768px ir aukščiau) */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: lightcoral;
+
+        grid-template-areas:
+        'h'
+        "s"
+        "s1"
+        'm'
+        'f';
+    }
+
+    body > aside {
+        display: none;
+    }
+}
+
+
+/* Dideli įrenginiai (laptopai, staliniai PC, 992px ir aukščiau) */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: orange;
+
+        grid-template-areas:
+        'h h'
+        "s s"
+        "s1 s1"
+        'm m'
+        'f f';
+    }
+
+    body > aside {
+        display: block;
+    }
+}
+
+/* Extra dideli įrenginiai (dideli laptopai ir stalinai PC, 1200px ir aukščiau) */
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: #D5DFE5;
+        grid-template-areas:
+        'h h'
+        's1 a'
+        's a'
+        'm a'
+        'f f';
+    }
+}
