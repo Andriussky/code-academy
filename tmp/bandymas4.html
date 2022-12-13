@@ -3,11 +3,21 @@
 <html>
 
 <body>
-<h1> Mano ketvirtas puslapis</h1>
-<p>Mano ketvirtas paragrafas.</p>
+<h1>Uzduotis 5</h1>
 
+<p id="demo"></p>
 <script>
-    window.alert(5 + 6);
+    document.getElementById("demo").innerHTML =
+        "'Andrius' yra " + typeof "Andrius" + "<br>" +
+        "3.14 yra " + typeof 3.14 + "<br>" +
+        "NaN yra " + typeof NaN + "<br>" +
+        "false yra " + typeof false + "<br>" +
+        "[1, 2, 3, 4] yra " + typeof [1, 2, 3, 4] + "<br>" +
+        "{vardas:'Andrius', amzius:18} Yra " + typeof {name:'Andrius', age:18} + "<br>" +
+        "new Date() yra " + typeof new Date() + "<br>" +
+        "function () {} yra " + typeof function () {} + "<br>" +
+        "myCar yra " + typeof myCar + "<br>" +
+        "null yra " + typeof null;
 </script>
 
 </body>
