@@ -1,23 +1,10 @@
-let rezult = 'Rez.:';
-console.log(rezult)
-let a = 1;
-let b = 'Kintemojo a reiksme: ' + a;
-console.log(b)
-
-let c = 2;
-let d = 'Kintemojo a reiksme: ' + c;
-console.log(d)
-
-let e = 'Andrius Pranskunas';
-let f = 'Mano vardas ';
-let g = f + e;
-console.log(g)
 
 
-
-let metai = 1999;
-let menuo = 10;
-let diena = 15;
-let rez = 'rez: ';
-let result = metai % 1990 + menuo % 10 + diena % 10;
-console.log(result)
+let a = -5;
+let b = 0;
+let c = -4;
+let d = 4;
+let x = c;
+let y = b;
+if (a > c) {console.log(x)}
+if (b > d){console.log(y)}
