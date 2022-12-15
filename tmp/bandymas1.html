@@ -3,17 +3,83 @@
 <html lang="en">
 
 <body>
-<h1>Uzduotis 1</h1>
 
+<h1>uzduotis 8</h1>
+
+<script>
+    let a = ['Andrius Pranskunas', 'KTU', 4, [7, 4, 5]];
+    for (let i = 0; i < a[3].length; i++) {
+        document.write(a[3][i]);
+    }
+
+</script>
+
+<h1>uzduotis9</h1>
+
+<script>
+    let b = [7, 4, 5];
+    for (let i = 0; i < b.length; i++) {
+        let grade = b[i];
+        if (grade < 10) {
+            grade++;
+
+        }
+        console.log(b[i], grade)
+    }
+
+    document.write('The answer is in the console')
+</script>
+<h1>uzduotis 10</h1>
+
+<div id="result"></div>
+
+<input type="button" value="ADD" onclick="add(7,4,5)">
+<script>
+    function add(a, b, c) {
+        let f = a + b + c;
+        document.getElementById("result").innerHTML = f;
+
+    }
+
+
+</script>
+<h1>uzduotis11</h1>
+
+<div id="sandauga"></div>
 
 <script>
 
-  let a = ['A', 'B', '1', 1, 2, 'Vardas', '', [], null];
-  for (let i = 0; i < a.length; i+=2){
-document.write(a);
-     }
+    function multiply(n, l) {
+        return n * l
+    }
 
+    document.getElementById("sandauga").innerHTML = multiply(7, 4);
 </script>
+
+<h1>uzduotis 12</h1>
+
+<p id="demo"></p>
+
+<script>
+    document.getElementById("demo").innerHTML =
+        "4 yra " + typeof 4
+</script>
+
+<h1>uzduotis 15</h1>
+
+
+<div id="rez"></div>
+
+<script>
+
+    function suma(u, i) {
+        return u + i;
+
+    }
+
+    document.getElementById("rez").innerHTML = suma(5, 8);
+</script>
+
 </body>
 
 </html>
