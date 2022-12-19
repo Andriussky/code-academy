@@ -18,6 +18,7 @@
 </head>
 <body>
 <header>
+
     <nav>
         <ul>
             <li>
@@ -67,18 +68,45 @@ text <br> text
         Daugiau informacijos:
     </p>
     <p>
-        asdfsadfasdf sdfas dfasdfa <br>
+<!-- ------------------------   trecia uzduotis ------------------>
+    <table id="table">
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+    </table>
+    <br>
+    <button id="buttonas" type="button">Add row</button>
 
-        dsfas
-        ohasodfhaso dfhu
-    </p> <br>
-    <p>
-        <button>
-            <a href="https://www.youtube.com/watch?v=_2wARy-oevQ">
-            click me
-            </a>
-        </button>
-    </p>
+    <form>
+        <label for="first">Input 1:</label><br>
+        <input type="text" id="first"><br>
+        <label for="second">Input 2:</label><br>
+        <input type="text" id="second"><br>
+        <label for="third">Input 3:</label><br>
+        <input type="text" id="third"><br>
+
+    </form>
+
+<!-- ------------------------   trecia uzduotis---------------->
+     <br>
+
+    <div>
+<!--------------------------------------    antra uzduotis----------------------->
+        <button id="show">Rodyti</button>
+
+        <form id="showHide" style="display: none;">
+
+            <select name="empty" id="empty" class="formcontrol" >
+                <option value="atsd">Del darbu</option>
+                <option value="atsf">Del finansu</option>
+                <option value="atsg">Del nauju uzsakymu</option>
+            </select>
+        </form>
+    </div>
+<!---------------------------------------    antra uzduotis-------------------------------->
+
 
 
 </aside>
@@ -88,7 +116,10 @@ text <br> text
     <form action="http://localhost/kursiustiduomenis.php" method="GET" class="container-fluid">
     <div class="row">
         <div class="col-3">
+<!---------------------            pirma uzduotis---------------------->
+            <button id="button"> Mygtukas  </button>
             <label for="fn" class="form-label">Vardas</label>
+<!-----------------------------------            pirma uzduotis------------------------->
         </div>
         <div class="col">
             <input name="firstname" type="text" id="fn" class="form-control" />
@@ -133,6 +164,7 @@ text <br> text
 </main>
 
 
+
 <footer>
     <h3 class="text3">
         Teises saugomos
@@ -141,5 +173,5 @@ text <br> text
 </footer>
 
 </body>
-
+<script src="../js/events.js"></script>
 </html>
